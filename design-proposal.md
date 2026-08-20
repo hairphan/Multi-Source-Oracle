@@ -117,8 +117,7 @@ Each indexer remains responsible for interpreting its indexed data and exposing 
 - Adding new price sources increases the number of dependencies and integration paths maintained by the BFF.
 
 > Different indexers may use different indexing models and price validation mechanisms. This makes it difficult to define a fully generic pricing interface without preserving some source-specific logic.
->
-> Detailed analysis: https://confluence.teko.vn/x/USBQGw
+
 
 ---
 
