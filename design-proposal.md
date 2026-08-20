@@ -194,11 +194,8 @@ ERD:
 
 https://dbdiagram.io/d/CNIO-5074-Multiple-Oracle-sources-67873ef06b7fa355c3e9b541
 
-ERD diagram:
 
-https://confluence.teko.vn/download/attachments/458227789/image2025-1-20_14-21-25.png?version=2&modificationDate=1742360456942&api=v2
-
-### Database Changes
+### Database
 
 #### `protocol_script_utxos`
 
