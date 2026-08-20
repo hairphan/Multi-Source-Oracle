@@ -136,9 +136,6 @@ Therefore:
 - New APIs will be introduced specifically for retrieving prices from multiple sources.
 - The Fixed Lending BFF will retrieve normalized pricing information through the On-chain Price Service.
 
-Updated flow diagram:
-
-https://confluence.teko.vn/download/attachments/458227789/image2025-1-18_10-23-48.png?version=1&modificationDate=1737170629175&api=v2
 
 ---
 
