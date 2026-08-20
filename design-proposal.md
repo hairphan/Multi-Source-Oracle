@@ -186,6 +186,10 @@ Retrieves dToken prices from indexed Float data.
 
 Based on the updated Fixed Lending datum structure, the **Fixed Lending Indexer database schema** needs to be updated to index all required protocol information.
 
+Diagram:
+
+https://drive.google.com/file/d/1kLrdMQxS_8lVz1g1kwHBRIAYHCduhXfZ/view?usp=drive_link
+
 ERD:
 
 https://dbdiagram.io/d/CNIO-5074-Multiple-Oracle-sources-67873ef06b7fa355c3e9b541
