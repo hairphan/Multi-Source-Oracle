@@ -1,6 +1,6 @@
 # On-chain Price Service
 
-This repository contains the design proposal for introducing an **On-chain Price Service** to support multiple on-chain pricing sources used by Danogo Fixed Lending.
+This repository contains the design proposal for introducing an **On-chain Price Service** to support multiple on-chain pricing sources.
 
 The proposed architecture centralizes price retrieval and transaction-reference lookup across multiple indexers, including:
 
@@ -11,7 +11,6 @@ The proposed architecture centralizes price retrieval and transaction-reference 
 
 ## Why This Service
 
-As Fixed Lending supports more price sources, directly integrating every source into the Fixed Lending BFF increases coupling and makes future integrations harder to maintain.
 
 The preferred solution introduces a dedicated **On-chain Price Service** that:
 
@@ -19,7 +18,6 @@ The preferred solution introduces a dedicated **On-chain Price Service** that:
 - Aggregates data from multiple source-specific indexers.
 - Returns pricing information and UTxO outRefs required for transaction building.
 - Centralizes price-source configuration.
-- Reduces changes required in the Fixed Lending BFF when new sources are added.
 
 ## Architecture
 
